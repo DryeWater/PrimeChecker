@@ -15,9 +15,9 @@ try:
     if isinstance(num, int):
         r = prime_checker(num)
         if r:
-            print(str(num) + " is prime")
+            print(str(num) + " is a prime number")
         else:
-            print(str(num) + " is not prime")
+            print(str(num) + " is not a prime number")
 except ValueError:
         print("please input a number")
 
