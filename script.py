@@ -19,7 +19,7 @@ try:
         else:
             print(str(num) + " is not a prime number")
 except ValueError:
-        print("please input a number")
+        print("please input a whole number")
 
 
 
